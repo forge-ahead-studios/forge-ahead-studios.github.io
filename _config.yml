@@ -1,0 +1,8 @@
+# Site settings
+title: Forge Ahead Studios
+email: hello@forgeaheadstudios.com
+baseurl: ""
+url: "http://forgeaheadstudios.com"
+
+# Build settings
+markdown: kramdown
