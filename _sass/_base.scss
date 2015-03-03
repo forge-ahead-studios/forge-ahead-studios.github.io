@@ -62,13 +62,56 @@ header {
 
 }
 
+.mailing-list-signup {
+
+	margin: 5em 0;
+
+	text-align: center;
+
+	p {
+		margin: 1em;
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+
+	form {
+
+		input,
+		button {
+			margin: .5em 0;
+			padding: .5em;
+			font-family: inherit;
+			font-size: 1em;
+			line-height: 1em;
+		}
+
+		button {
+			padding: .5em 2em;
+			font-weight: bold;
+			color: #fff;
+			border-radius: .25em;
+			border: 0;
+			background-color: #AAAAAA;
+			cursor: pointer;
+			&:hover {
+				background-color: #777777;
+			}
+		}
+
+	}
+
+}
+
 footer {
 
-	margin: 3em 0;
+	margin: 3em 1em;
 	text-align: center;
 
 	p {
 		font-style: italic;
+		span {
+			white-space: nowrap;
+		}
 	}
 
 }
